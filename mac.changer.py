@@ -8,7 +8,6 @@ def get_arguments():
     parser.add_option("-i","--interface",dest="interface",help="Interface Here \n\n")
     parser.add_option("-m","--mac_address",dest="mac_address",help="Mac Address Here  \n\n")
     parser.add_option("-o","--original_mac",dest="interface",help="Interface Here \n\n")
-    
     parser.add_option("-r","--random",dest="interface_random",help="Interface Here")
     (options,arguments)=parser.parse_args()
     return options
